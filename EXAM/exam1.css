@@ -1,0 +1,157 @@
+body{
+   
+ 
+   
+    
+    background : url('https://cdn.pixabay.com/photo/2017/06/03/10/32/space-travel-2368412_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .container2{
+      height: 1050px;
+      width: 1300px;
+      border: 2px solid gray;
+      margin-left: 20px;
+      background-color: bisque;
+      float: top;
+  margin-top: 0px;
+  }
+  #logo{
+      width: 40%;
+      height: 20%;
+  }
+  #img{
+      width: 400px;
+      margin-top: 20px;
+  }
+  #img1{
+      width: 100px;
+      margin-top: 20px;
+      float: left;
+  }
+  #aside{
+      height: 1000px;
+  }
+  .container1{
+      background-color: black;
+      height: 30px;
+      width: 2000px;
+  }
+  #btn1{
+      margin-left: 50px;
+  }
+  .container3{
+      border: 2px solid black;
+      height: 1050px;
+      margin-left: 700px;
+      margin-right: 380px;
+     margin-bottom: 500px;
+  
+  }
+  #id{
+      width: 155%;
+      height: 25%;
+  }
+  #clock {
+      padding: 10px;
+      color: rgb(29, 18, 122);
+      display: flex;
+      align-items: center;
+  }
+  .container4{
+      border: 2px solid red;
+      width: 160px;
+      background-color: bisque;
+      float: right;
+  }
+  #modal{
+      background-color: chocolate;
+  }
+  .container5{
+      border: 2px solid red;
+      width:25%;
+      background-color: bisque;
+      margin-left: 70%;
+      margin-right: 5%;
+      
+     
+  }
+  #logo1{
+      width: 70%;
+      height: 20%;
+  }
+  .question1{
+      margin-left: 4%;
+      margin-right: 40%;
+      border: 2px solid gray;
+      background-color: darkgoldenrod;
+  }
+  .question2{
+      margin-left: 4%;
+      margin-right: 40%;
+      border: 2px solid gray;
+      background-color: darkgoldenrod;
+  }
+  .question3{
+      margin-left: 4%;
+      margin-right: 40%;
+      border: 2px solid gray;
+      background-color: darkgoldenrod;
+  }
+  .question4{
+      margin-left: 4%;
+      margin-right: 40%;
+      border: 2px solid gray;
+      background-color: darkgoldenrod;
+  }
+  .question5{
+      margin-left: 4%;
+      margin-right: 40%;
+      border: 2px solid gray;
+      background-color: darkgoldenrod;
+  }
+  .question6{
+      margin-left: 4%;
+      margin-right: 40%;
+      border: 2px solid gray;
+      background-color: darkgoldenrod;
+  }
+  .question7{
+      margin-left: 4%;
+      margin-right: 40%;
+      border: 2px solid gray;
+      background-color: darkgoldenrod;
+  }
+  .question8{
+      margin-left: 4%;
+      margin-right: 40%;
+      border: 2px solid gray;
+      background-color: darkgoldenrod;
+  }
+  .question9{
+      margin-left: 4%;
+      margin-right: 40%;
+      border: 2px solid gray;
+      background-color: darkgoldenrod;
+  }
+  .question10{
+      margin-left: 4%;
+      margin-right: 40%;
+      border: 2px solid gray;
+      background-color: darkgoldenrod;
+  }
+  #particles-js {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      background-image: url("");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 50%;
+      
+    }
+  
+  

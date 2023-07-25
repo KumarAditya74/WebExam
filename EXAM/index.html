@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="exam.css">
+</head>
+
+<body onload="updateClock(); setInterval('updateClock()', 1000)">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+            <i class="fas fa-home"></i>
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <i class="fas fa-id-card"></i>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+
+                        <a class="nav-link active" aria-current="page" href="https://www.instagram.com/kumaraditya08999/">Contact us</a>
+                    </li>
+                    <i class="fas fa-info-circle"></i>
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="https://www.masterstudies.com/Masters-Degree/Space-Sciences/Japan/">Information</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <img id="logo" src="logo.png"  data-aos="flip-right">
+    <div class="container4">
+        <div id="clock"  data-aos="zoom-in">
+
+        </div>
+    </div>
+    <hr>
+    <aside id="aside"
+        style="width: 45%; float: right; background-color:linear-gradient(rgb(150, 18, 18),yellow) color: (rgb(39, 34, 49); padding: 16px; height: 890px;"
+        data-aos="flip-right" onmouseover="abdk()" onmouseout="abdeg()">
+        <img src="logo1.png" id="logo1">
+        <hr>
+        <a href="https://en.wikipedia.org/wiki/Higher_education_in_Japan">
+            <h2>Academic information</h2>
+        </a>
+        <hr>
+        <a href="">
+            <h2>Student details</h2>
+        </a>
+        <hr>
+        <a href="">
+            <h2>Result</h2>
+        </a>
+        <hr>
+        <a href="">
+            <h2>Reward</h2>
+        </a>
+        <hr>
+        <img id="id" src="adi.png">
+
+
+    </aside>
+
+    <div class="container2" id="card" onmouseover="abd()" onmouseout="abde()">
+        <center>
+            <img id="img"
+                src="https://media-exp1.licdn.com/dms/image/C4E1BAQHL5e4MYhBzQA/company-background_10000/0/1551801354635?e=2159024400&v=beta&t=ZKzl5F9tl77iiB45XtUlS6ZP5-RDCrwd5adq44V0chY">
+        </center><br>
+        <p><b>Aditya institute of technology</b> is the most popular and the best institute regarding Space and Science
+            Technology , located at japan. This institute has given so much important theories and research papers in
+            the particular field. This institute got many rewards till now.</p><br>
+        <center>
+            <img id="img1" src="myImage.jpeg">
+
+        </center><br><br><br><br>
+        <h1>Founder</h1><br>
+        <p><b>Kumar Aditya</b> is the founder of this institute.He have done his graduation from <b>Haldia Institute of
+                Technology</b>. He completed his masters from <b>JAPAN</b>.He is also connected to an NGO<a
+                href="https://www.instagram.com/_taruguardians_/"><b>Taru Guardian</b></a>.</p><br>
+        <center>
+            <img id="imgr" src="ravi.jfif">
+
+        </center><br><br><br><br>
+        <h1>Co-Founder</h1><br>
+        <p><b>Ravi Kumar</b> is the C0-Founder of this institute in space technology.He have done his graduation from
+            <b>Pune</b>. He completed his masters from <b>CALIFORNIA</b>
+        </p><br>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Let's Go!
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Space science exam</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Any discrepancy may cause the cancellation of paper. Be aware for that! Camera and microphone
+                        will be enabled automatically on clicking <b>Start Exam</b>.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <a class="btn btn-primary" href="start.html" role="button">Start Exam</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="container1">
+        <footer class="footer mt-auto py-3 bg-dark">
+
+            <span class="text-muted"><b>copyright@ADITYA INSTITUTE OF TECHNOLOGY</b></span>
+
+        </footer>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+    <script src="https://kit.fontawesome.com/e61a68dab2.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 2000,
+        });
+    </script>
+    <script type="text/javascript" src="clock.js"></script>
+</body>
+
+</html>

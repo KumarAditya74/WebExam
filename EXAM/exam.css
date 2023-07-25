@@ -1,0 +1,175 @@
+body{
+   
+ 
+  margin: 0;
+  padding: 0%;
+  
+  background : url('https://cdn.pixabay.com/photo/2016/06/17/06/04/background-1462755_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.container2{
+    height: 60%;
+    width: 45%;
+    border: 1% solid gray;
+    margin-left: 2%;
+    background-color: rgb(255, 218, 196);
+    float: top;
+margin-top: 0%;
+}
+#img{
+    width: 30%;
+    margin-top: 2%;
+}
+#img1{
+    width: 10%;
+    margin-top: 2%;
+    height: 15%;
+    float: left;
+}
+#imgr{
+    width: 10%;
+    height:10% ;
+    float: left;
+}
+aside{
+    height: 40%;
+}
+
+
+#id{
+    width: 80%;
+    height: 40%;
+}
+#logo{
+    width: 50%;
+    height: 20%;
+}
+#logo1{
+    width: 50%;
+    height: 20%;
+}
+
+.container1{
+    background-color: black;
+    height: 8%;
+    width: 125rem;
+}
+#btn1{
+    margin-left: 4rem;
+}
+.container3{
+    border: 0.125rem solid black;
+    height:;
+    margin-left: 44rem;
+    margin-right: 25rem;
+   margin-bottom: 33rem;
+
+}
+#clock {
+    padding: 10%;
+    color: rgb(29, 18, 122);
+    display: flex;
+    align-items: center;
+}
+.container4{
+    border: 0.125rem solid red;
+    width: 20%;
+    height: 20%;
+    background-color: bisque;
+    float: right;
+}
+#modal{
+    background-color: chocolate;
+}
+.container5{
+    border: 0.125rem solid red;
+    width: 16rem;
+    background-color: bisque;
+    margin-left: 90rem;
+    
+   
+}
+.question1{
+    margin-left: 4rem;
+    margin-right: 30rem;
+    border: 0.125rem solid gray;
+    background-color: darkgoldenrod;
+}
+.question2{
+    margin-left: 4rem;
+    margin-right: 30rem;
+    border: 0.125rem solid gray;
+    background-color: darkgoldenrod;
+}
+.question3{
+    margin-left: 4rem;
+    margin-right: 30rem;
+    border: 0.125rem solid gray;
+    background-color: darkgoldenrod;
+}
+.question4{
+    margin-left: 4rem;
+    margin-right: 30rem;
+    border: 0.125rem solid gray;
+    background-color: darkgoldenrod;
+}
+.question5{
+    margin-left: 4rem;
+    margin-right: 30rem;
+    border: 0.125rem solid gray;
+    background-color: darkgoldenrod;
+}
+.question6{
+    margin-left: 4rem;
+    margin-right: 30rem;
+    border: 0.125rem solid gray;
+    background-color: darkgoldenrod;
+}
+.question7{
+    margin-left: 4rem;
+    margin-right: 30rem;
+    border: 0.125rem solid gray;
+    background-color: darkgoldenrod;
+}
+.question8{
+    margin-left: 4rem;
+    margin-right: 30rem;
+    border: 0.125rem solid gray;
+    background-color: darkgoldenrod;
+}
+.question9{
+    margin-left: 4rem;
+    margin-right: 30rem;
+    border: 0.125rem solid gray;
+    background-color: darkgoldenrod;
+}
+.question10{
+    margin-left: 4rem;
+    margin-right: 30rem;
+    border: 0.125rem solid gray;
+    background-color: darkgoldenrod;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    background-position: 50% 50%;
+    
+  }/*
+  @media(max-width : 998rem){
+      html{
+          font-size: 65%;
+      }
+  }
+  @media(max-width : 998rem){
+    html{
+        font-size: 65%;
+    }
+}

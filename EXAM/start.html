@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Exam</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="exam1.css">
+</head>
+
+<body onload="updateClock(); setInterval('updateClock()', 1000)">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+            <i class="fas fa-home"></i>
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <i class="fas fa-id-card"></i>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+
+                        <a class="nav-link active" aria-current="page"
+                            href="https://www.instagram.com/kumaraditya08999/">Contact us</a>
+                    </li>
+                    <i class="fas fa-info-circle"></i>
+                    <li class="nav-item">
+
+                        <a class="nav-link"
+                            href="https://www.masterstudies.com/Masters-Degree/Space-Sciences/Japan/">Information</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <img id="logo" src="logo.png" data-aos="flip-right">
+    <div data-aos="flip-left">
+        <h1>SPACE SCIENCE QUIZ 2021</h1>
+    </div>
+    <div class="container5">
+        <div id="clock" data-aos="zoom-in">
+
+        </div>
+    </div><br>
+    <div class="Note" data-aos="zoom-out">
+        <h1>Duration: 20 minutes</h1>
+        <hr>
+        <h1>Full Marks : 20</h1>
+        <hr>
+        <h2>Note1 :- Each question carry 2marks</h2>
+        <hr>
+        <h2> Note2 :- 1 mark is deducted for wrong attempt.</h2>
+        <hr>
+        <h2>Note3 :-Any type of discrepancy may cause cancellation of paper.</h2>
+    </div>
+    <aside id="aside"
+        style="width: 35%; float: right; background-color:rgb(150, 18, 18); color: rgb(39, 34, 49); padding: 10%"
+        data-aos="flip-right" onmouseover="abdk()" onmouseout="abdeg()">
+        <img id="logo1" src="logo1.png">
+
+        <hr>
+        <a class="btn btn-primary" href="#utb1" role="button">Q1</a>
+        <a class="btn btn-primary" href="#utb2" role="button">Q2</a>
+        <a class="btn btn-primary" href="#utb3" role="button">Q3</a><br><br>
+        <a class="btn btn-primary" href="#utb4" role="button">Q4</a>
+        <a class="btn btn-primary" href="#utb5" role="button">Q5</a>
+        <a class="btn btn-primary" href="#utb6" role="button">Q6</a><br><br>
+        <a class="btn btn-primary" href="#utb7" role="button">Q7</a>
+        <a class="btn btn-primary" href="#utb8" role="button">Q8</a>
+        <a class="btn btn-primary" href="#utb9" role="button">Q9</a><br><br>
+
+        <img id="id" src="adi.png">
+
+
+    </aside>
+
+
+    </div><br><br><br>
+    <div class="question1" data-aos="flip-right" id="card1" onmouseover="abd1()" onmouseout="abde1()">
+        <span id="utb1">
+            <h1> 1. The largest circular storm in our solar system is on the surface of
+                which of the following planets?
+            </h1>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Jupiter</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Venus</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Earth</label>
+            </div>
+        </span>
+    </div><br>
+    <div class="question2" data-aos="flip-left" id="card2" onmouseover="abd2()" onmouseout="abde2()">
+        <span id="utb2">
+            <h1>2. The biggest asteroid known is:</h1>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">vesta</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Icarus</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Ceres</label>
+            </div>
+        </span>
+    </div><br>
+    <div class="question3" data-aos="flip-right" id="card3" onmouseover="abd3()" onmouseout="abde3()">
+        <span id="utb3">
+            <h1>3. Rounded to the nearest day, the Mercurian year is equal to:</h1>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">111 days</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">88 days</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">50 days</label>
+            </div>
+        </span>
+    </div><br>
+    <div class="question4" data-aos="flip-left" id="card4" onmouseover="abd4()" onmouseout="abde4()">
+        <span id="utb4">
+            <h1>4. One of the largest volcanos in our solar system-if not the largest-is
+                named Olympus Mons. This volcano is located on:</h1>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Jupiter's moon Callisto</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck">Venus</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Mars</label>
+            </div>
+        </span>
+    </div><br>
+    <div class="question5" data-aos="flip-right" id="card5" onmouseover="abd5()" onmouseout="abde5()">
+        <span id="utb5">
+            <h1>5. One Jupiter day is equal to which of the following? </h1>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">30 hrs 40 min
+
+                </label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">3 hrs 20 min</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">9 hrs 50 min</label>
+            </div>
+        </span>
+    </div><br>
+    <div class="question6" data-aos="flip-left" id="card6" onmouseover="abd6()" onmouseout="abde6()">
+        <span id="utb6">
+            <h1>6. The time interval between two successive occurrences of a specific
+                type of alignment of a planet (or the moon) with the sun and the earth is referred to as:</h1>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">an opposition
+                </label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1"> a synodic period</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">a sidereal period</label>
+            </div>
+        </span>
+    </div><br>
+    <div class="question7" data-aos="flip-right" id="card7" onmouseover="abd7()" onmouseout="abde7()">
+        <span id="utb7">
+            <h1>7. The sunspot cycle is:</h1>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">3 years
+                </label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">11 years</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">26 years</label>
+            </div>
+        </span>
+    </div><br>
+    <div class="question8" data-aos="flip-left" id="card8" onmouseover="abd8()" onmouseout="abde8()">
+        <span id="utb8">
+            <h1>8. The Hertzsprung-Russel Diagram of stars DIRECTLY compares
+                what TWO of the following properties of stars?</h1>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1"> size
+                </label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">luminosity</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1"> temperature</label>
+            </div>
+        </span>
+    </div><br>
+    <div class="question9" data-aos="flip-right" id="card9" onmouseover="abd9()" onmouseout="abde9()">
+        <span id="utb9">
+            <h1>9. The andromeda Galaxy is which of the following types of galaxies?</h1>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">elliptical
+                </label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1"> barred-spira</label>
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">spiral</label>
+            </div>
+        </span>
+    </div><br>
+
+
+    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Submit
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Space science exam</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Congrats! Paper is submitted successfully.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a class="btn btn-primary" href="index.html" role="button">Okay</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+    <script src="https://kit.fontawesome.com/e61a68dab2.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 2000,
+        });
+    </script>
+    <script type="text/javascript" src="clock.js"></script>
+
+</body>
+
+</html>
